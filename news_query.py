@@ -6,7 +6,7 @@
 #       on a summary view of the 'log' table called 'views'
 #       'writers' summarizes which article was written by which author
 #       'view_errors' counts the number of '200 OK' and '404 NOT FOUND' status
-#       codes and returns the percentage error rate on each dat
+#       codes and returns the percentage error rate on each date
 #
 
 import psycopg2
