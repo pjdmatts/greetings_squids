@@ -14,7 +14,7 @@ questions:
 
 ***Where to get the files***
 
-Download the necessary files from [this Github repository](https://github.com/pjdmatts/monkey_beads)
+Download the necessary files from [this Github repository](https://github.com/pjdmatts/greetings_squids)
 
 Add the convenience views (see details below) to your news database before running the script
 
