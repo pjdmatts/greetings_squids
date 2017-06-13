@@ -1,8 +1,13 @@
 #!/usr/bin/python2.7
 #
 #  A small script to report statistics on the news database
+#  The script relies on several views on the news database:
+#       'article_views' summarizes the views for each article_views and relies
+#       on a summary view of the 'log' table called 'views'
+#       'writers' summarizes which article was written by which author
+#       'view_errors' counts the number of '200 OK' and '404 NOT FOUND' status
+#       codes and returns the percentage error rate on each dat
 #
-
 
 import psycopg2
 
